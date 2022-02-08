@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>PENGUIN MAGIC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family
+=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" 
+integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Discuss.html">DISCUSS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Login.html">LOGIN</a></li>
+                    <li><a href="">SEARCH</a></li>
+                    <li><a href="">HELP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Discuss</h1>
+    
+    </section>
+
+
+    <section class="discuss">
+        <div class="row">
+            <div class="discuss-col">
+                <h1>Ask our experts here</h1>
+                <h3>We like to make sure all our customers doubts are cleared</h3>
+            </div>
+            <div class="discuss-col">
+                <img src="images/question.jpg">
+            </div>
+        </div>
+    </section>
+
+
+</section>
+
+
+<!----- Comment box ------->
+
+
+
+<section class="comment-box">
+
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="villain-btn blue-btn">POST COMMENT</button> 
+    </form>
+
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+
+
+    <!----Footer-->
+
+<section class="footer">
+    <p>COPYRIGHT © Group 11 LLC</p>
+    <p>Created with love</p>        
+
+    <div class="icons">
+        <p><img src="images/social.jpeg" 
+            height="25"
+            width="75"/>
+        </p>
+        
+    </div>
+    <p>Made by Lathoofy,ABDI,Aryan,Ammar,Asjad</p>
+
+
+
+    
+
+ <!-----Java for Toggle Menu----->
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks")
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+</body>
+
+</body>
+</html>
